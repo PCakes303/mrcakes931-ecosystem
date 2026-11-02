@@ -1,56 +1,55 @@
-# MrCakes931 Ecosystem Guide
+# MrCakes931 Agent Intelligence Ecosystem
 
-**Repository:** [PCakes303/mrcakes931-ecosystem](https://github.com/PCakes303/mrcakes931-ecosystem)  
-**Ecosystem:** [MrCakes931 Agent Intelligence Ecosystem](https://github.com/PCakes303/agent-intelligence-ecosystem)  
-**Repository ID:** `human-guide` · **Maturity:** scaffolding · **Visibility:** public
+Welcome to the human-facing guide for the **MrCakes931 Agent Intelligence Ecosystem**, a coordinated 30-repository architecture for interoperable, secure, distributed agent systems and supporting intelligence workflows.
 
-## Purpose
+**Public identity:** MrCakes931  
+**GitHub owner:** PCakes303  
+**Master registry:** [agent-intelligence-ecosystem](https://github.com/PCakes303/agent-intelligence-ecosystem)  
+**This repository's role:** human onboarding and navigation; not the canonical machine-readable registry.
 
-Provide the approachable front door for people exploring, evaluating, contributing to, and adopting the ecosystem.
+## What the ecosystem is
 
-## Scope
+The ecosystem combines a shared control plane with independently developed components. It uses a hybrid swarm architecture: centralized publication of common metadata and contracts, federated operational domains, and peer-to-peer exchange where justified. It extends and composes existing standards rather than attempting to replace them.
 
-- Human-readable architecture overview
-- Repository directory and dependency navigation
-- Getting-started and contribution guides
-- Status and maturity explanations
+## Start here
 
-## Explicit boundaries
+- [Architecture overview](docs/ARCHITECTURE.md)
+- [Getting started and contribution paths](docs/ONBOARDING.md)
+- [Repository map](docs/REPOSITORY-MAP.md)
+- [Canonical repository registry](https://github.com/PCakes303/agent-intelligence-ecosystem/blob/main/registry/repositories.json)
+- [Canonical dependency graph](https://github.com/PCakes303/agent-intelligence-ecosystem/blob/main/registry/dependencies.json)
+- [Foundation implementation packet](https://github.com/PCakes303/agent-intelligence-ecosystem/blob/main/docs/FOUNDATION-IMPLEMENTATION-PACKET.md)
 
-This repository does not own:
+## Architecture at a glance
 
-- Canonical repository metadata (master owns it)
-- Implementation authority for component repositories
-- Private operational details
-- Claims that planned components are already implemented
+| Layer | Responsibility |
+|---|---|
+| Control plane | Repository registry, dependencies, governance, compatibility |
+| Discovery and guide | Machine-readable discovery and human navigation |
+| Foundation/security | Vocabulary, schemas, manifests, identity, authorization, audit, supply chain |
+| Protocols | AIX semantic extension, codecs, secure transport integration |
+| Swarm | Discovery, capabilities, runtime, coordination, state mesh |
+| Intelligence | Public source catalogue, authorized collection, evidence, entity resolution, graph |
+| Adoption/federation | Tool adapters, skills, sandboxing, conformance, independent federation |
+| Private operations | Restricted planning and security operations, excluded from public sync |
 
-## Dependencies
+## Core principles
 
-- `master`
+- **AIX is an extension layer**, not a replacement for MCP, A2A, or existing standards.
+- **Hybrid swarm:** shared coordination contracts with independent trust domains and federated nodes.
+- **Default deny and least authority:** discovery is not trust; authentication is not authorization.
+- **Evidence over claims:** planned, implemented, tested, and released are distinct states.
+- **Separation of ownership:** each component repo owns its implementation; the master owns the ecosystem index.
+- **Privacy boundary:** private operations remain private and are never automatically exported to public repositories.
 
-See the [canonical dependency graph](https://github.com/PCakes303/agent-intelligence-ecosystem/blob/main/registry/dependencies.json). Declared dependencies are contract relationships; they do not mean those components are already implemented or tested together.
+## Repository maturity
 
-## Initial deliverables
-
-1. A navigable guide to all 30 repositories
-2. Architecture and data-flow explanations
-3. Onboarding paths for users, developers, and reviewers
-4. Release and governance overview
-
-## First implementation milestone
-
-Create an ecosystem map and onboarding pages that link to the master registry and each repository; label every capability with its verified maturity.
-
-## Security and trust
-
-The guide consumes public metadata from the master registry. When narrative and machine-readable registry disagree, the registry is authoritative and the guide must be corrected.
-
-Read [SECURITY.md](SECURITY.md) before contributing. Never commit secrets. Validate untrusted data and fail closed for security-sensitive decisions.
-
-## Status
-
-This repository currently contains its initial documentation and metadata scaffold. Domain implementation, interoperability, and conformance are **not yet verified**. The master registry is authoritative for ecosystem-wide status.
+The master registry is the source of truth for repository existence, visibility, dependencies, and maturity. A link in this guide does not imply that the repository has been created or implemented. Repository maturity labels are defined in [ONBOARDING.md](docs/ONBOARDING.md).
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) and [AGENTS.md](AGENTS.md). Changes should include tests or validation evidence appropriate to the affected contract.
+Choose the component repository that owns the behavior you intend to change. Read its README, AGENTS.md, CONTRIBUTING.md, and SECURITY.md. Include tests and evidence; do not commit secrets or private operational information.
+
+## Status
+
+This guide is an initial documentation scaffold with architecture, onboarding, and repository navigation pages. The component implementations and integrations are being built incrementally; consult the master registry and each repository's CI/release evidence before relying on a capability.
