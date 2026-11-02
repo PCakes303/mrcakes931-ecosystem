@@ -1,6 +1,6 @@
 # MrCakes931 Agent Intelligence Ecosystem
 
-Welcome to the human-facing guide for the **MrCakes931 Agent Intelligence Ecosystem**, a coordinated 30-repository architecture for interoperable, secure, distributed agent systems and supporting intelligence workflows.
+Welcome to the human-facing guide for the **MrCakes931 Agent Intelligence Ecosystem**, a coordinated 32-repository portfolio (31 public repositories and one private operations repository) for interoperable, secure, distributed agent systems and supporting intelligence workflows.
 
 **Public identity:** MrCakes931  
 **GitHub owner:** PCakes303  
