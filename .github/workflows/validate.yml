@@ -2,7 +2,7 @@ name: Guide validation
 on:
   push:
     branches: [main]
-    paths: ['README.md','manifest.json','capabilities.json','compatibility.json','llms.txt','ROADMAP.md','CHANGELOG.md','docs/**','tools/**','tests/**','.github/workflows/**']
+    paths: ['LICENSE.md','README.md','manifest.json','capabilities.json','compatibility.json','llms.txt','ROADMAP.md','CHANGELOG.md','docs/**','tools/**','tests/**','.github/workflows/**']
   pull_request:
     paths: ['tools/**','tests/**','.github/workflows/**']
 permissions:
