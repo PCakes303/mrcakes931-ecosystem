@@ -15,6 +15,7 @@ The master repository contains the authoritative machine-readable list and depen
 - [agent-identity-trust](https://github.com/PCakes303/agent-identity-trust) — principal identity and trust.
 - [agent-secure-supply-chain](https://github.com/PCakes303/agent-secure-supply-chain) — SBOM, provenance, signing, and release integrity.
 - [agent-policy-engine](https://github.com/PCakes303/agent-policy-engine) — authorization decisions and policy contracts.
+- [agent-emergency-control](https://github.com/PCakes303/agent-emergency-control) — independent emergency-stop authority and distributed stop enforcement.
 - [agent-audit-provenance](https://github.com/PCakes303/agent-audit-provenance) — audit events and integrity.
 
 ## Protocols
