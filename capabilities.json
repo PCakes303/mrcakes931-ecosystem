@@ -1,0 +1,38 @@
+{
+  "capabilities_version": "1.0.0",
+  "repository": "mrcakes931-ecosystem",
+  "repository_id": "human-guide",
+  "status": "planned",
+  "capabilities": [
+    {
+      "id": "human-guide.capability.1",
+      "name": "A navigable guide to all 30 repositories",
+      "status": "planned",
+      "description": "A navigable guide to all 30 repositories"
+    },
+    {
+      "id": "human-guide.capability.2",
+      "name": "Architecture and data-flow explanations",
+      "status": "planned",
+      "description": "Architecture and data-flow explanations"
+    },
+    {
+      "id": "human-guide.capability.3",
+      "name": "Onboarding paths for users, developers, and reviewers",
+      "status": "planned",
+      "description": "Onboarding paths for users, developers, and reviewers"
+    },
+    {
+      "id": "human-guide.capability.4",
+      "name": "Release and governance overview",
+      "status": "planned",
+      "description": "Release and governance overview"
+    }
+  ],
+  "explicit_non_capabilities": [
+    "Canonical repository metadata (master owns it)",
+    "Implementation authority for component repositories",
+    "Private operational details",
+    "Claims that planned components are already implemented"
+  ]
+}
