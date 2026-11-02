@@ -29,4 +29,4 @@
 
 ## Open work
 
-Create an ecosystem map and onboarding pages that link to the master registry and each repository; label every capability with its verified maturity.
+Keep the human-readable repository map synchronized with the master registry, add an automated public-entry count/consistency check, and ensure private repository entries never appear in generated public output.
