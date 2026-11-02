@@ -2,7 +2,7 @@
 
 ## Overview
 
-The MrCakes931 Agent Intelligence Ecosystem is a coordinated portfolio of 30 repositories. It is designed as a composable system of specifications, schemas, identity and security contracts, protocols, distributed-agent infrastructure, intelligence workflows, and adoption tooling.
+The MrCakes931 Agent Intelligence Ecosystem is a coordinated portfolio of 32 repositories (31 public and one private operations repository). It is designed as a composable system of specifications, schemas, identity and security contracts, protocols, distributed-agent infrastructure, intelligence workflows, and adoption tooling.
 
 The architecture uses a **hybrid swarm model**: a shared control plane publishes canonical metadata and policy contracts, while independently operated nodes and federated domains retain operational autonomy. Peer-to-peer exchange may be used where appropriate, but trust boundaries remain explicit.
 
