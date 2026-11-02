@@ -53,3 +53,12 @@ Choose the component repository that owns the behavior you intend to change. Rea
 ## Status
 
 This guide is an initial documentation scaffold with architecture, onboarding, and repository navigation pages. The component implementations and integrations are being built incrementally; consult the master registry and each repository's CI/release evidence before relying on a capability.
+
+## Entry-level build
+
+Start with the runnable starter build:
+
+    python tools/starter_build.py
+    python -m unittest discover -s tests -v
+
+See [Entry-level build guide](docs/ENTRY-LEVEL-BUILD.md) for Starter → Developer → Production progression.
