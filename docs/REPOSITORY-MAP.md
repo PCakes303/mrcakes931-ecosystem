@@ -36,6 +36,9 @@ The master repository contains the authoritative machine-readable list and depen
 - [osint-entity-resolution](https://github.com/PCakes303/osint-entity-resolution) — entity correlation and uncertainty.
 - [intelligence-knowledge-graph](https://github.com/PCakes303/intelligence-knowledge-graph) — source/evidence/entity graph.
 
+## Governance
+- [agent-compliance-governance](https://github.com/PCakes303/agent-compliance-governance) — legal applicability, control mapping, privacy/AI governance and evidence management.
+
 ## Adoption and federation
 - [agent-tool-adapters](https://github.com/PCakes303/agent-tool-adapters) — tool interfaces.
 - [agent-skill-library](https://github.com/PCakes303/agent-skill-library) — reusable workflows.
